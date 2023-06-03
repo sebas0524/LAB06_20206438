@@ -4,6 +4,15 @@ public class Cancion {
     private int idCancion;
     private String nombre_cancion;
     private String banda;
+    private Boolean cancionesFavoritas;
+
+    public Boolean getCancionesFavoritas() {
+        return cancionesFavoritas;
+    }
+
+    public void setCancionesFavoritas(Boolean cancionesFavoritas) {
+        this.cancionesFavoritas = cancionesFavoritas;
+    }
 
     public Cancion() {
         this.idCancion = idCancion;
